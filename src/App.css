@@ -50,3 +50,17 @@ table {
 html {
   font-size: 62.5%;
 }
+
+header {
+	background-color: #000;
+	color: #fff;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.heading {
+	font-size: 4rem;
+	text-align: center;
+}

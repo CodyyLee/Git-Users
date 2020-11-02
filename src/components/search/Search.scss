@@ -1,0 +1,25 @@
+@import '../../styles/mixins.scss';
+@import '../../styles/variables.scss';
+
+.search {
+    background-color: $primary-color;
+    height: 10vh;
+    margin: 0;
+    @include FlexCenter;
+
+    #search-bar {
+        border: none;
+        padding: 2%;
+        background-color: $primary-color;
+        color: $primary-font;
+        font-weight: bold;
+        border-bottom: 1px solid $secondary-color;
+        text-align: center;
+    }
+
+    svg {
+        font-size: 2rem;
+        color: $primary-font;
+        margin: 1%;
+    }
+}

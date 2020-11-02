@@ -1,0 +1,47 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
+
+.profile {
+    background-color: $accent-color;
+    width: 95%;
+    margin-left: 2.5%;
+    padding: 3% 0 3% 0;
+    @include FlexCenterColumn;
+    border-radius: 5px;
+
+    hr {
+        width: 95%;
+    }
+
+    .username {
+        color: $secondary-color;
+        font-size: 3rem;
+        margin: 1%;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .location {
+        color: $secondary-color;
+        font-size: 1.6rem;
+        padding: 1%;
+    }
+
+    .profile-img {
+        width: 80%;
+        border-radius: 5px;
+        border: 1px solid $secondary-color;
+        margin: 1%;
+    }
+
+    .bio {
+        color: $secondary-color;
+        font-size: 1.6rem;
+        width: 75%;
+        text-align: justify;
+        margin: 1%;
+    }
+}
